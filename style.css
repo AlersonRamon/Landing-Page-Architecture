@@ -1,0 +1,109 @@
+*{
+    
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}
+
+#menusuperior{
+    color: #fff;
+    background-color: #303030;
+    padding-top: 180px;
+    padding-left: 100px;
+    padding-bottom: 130px;
+    
+}    
+#titulo-menusuperior{
+    margin-bottom: 14px;
+    font-size: 45px;
+    
+}
+#menuinformacoes{
+    background-color: #F9F9F9; /*#  */
+    display: grid;
+    grid-auto-flow: column;
+    columns:auto;
+    padding-left: 100px;
+    padding-top: 70px;
+    padding-bottom: 70px;
+    
+}
+.numero-menuinformacoes{
+    font-weight: bold;
+    font-size: 30px;
+    
+}
+#campodescricao{
+    background-color: #F5F5F5;
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+    padding: 50px 100px 50px 100px;
+    font-style: normal;
+    font-weight: 500;
+}
+#texto-campodecricao{   
+   margin-top: 170PX; 
+}
+#texto-campodecricao p{
+    margin-top: 30px;
+}
+#texto-campodecricao h1{
+    font-size: 35px;
+}
+img{
+    max-width: 400px;
+    margin-left: 20px;
+}
+#div-formulario{
+    background-color: #303030;
+    text-align: center;
+    padding-bottom: 50px;
+}
+#div-formulario h1 {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    font-size: 40px;
+    color: #fff;
+}
+#div-formulario input{
+    width: 400px;
+    margin: 25px;
+    border-radius: 5px;
+    height: 40px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-size: 18px;
+    line-height: 30px;
+    padding: 7px;
+    color: #000000;
+    border: none;
+}
+#div-formulario input::placeholder {
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+}
+
+button{
+    width: 200px;
+    height: 45px;
+    background-color: #C07212;
+    border: none;
+    border-radius: 5px;
+    margin-top: 30px;
+    color: #fff;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 30px;
+    transition-duration: 400ms;
+}
+button:hover{
+    background-color: #e19538;
+    color: #fff;
+    transform: translateY(5px);
+    cursor: pointer;
+}
